@@ -69,5 +69,6 @@ class StudentTest {
     void testIsId(){
         assertTrue(s1.isId("6xxxxxxxxx"));
     }
+    //config user.name & user.email
 
 }
