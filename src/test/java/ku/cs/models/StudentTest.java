@@ -64,6 +64,7 @@ class StudentTest {
     void testToString(){
         assertEquals("{id: '6xxxxxxxxx', name: 'StudentTest', score: 0.0}", s1.toString());
     }
+
     @Test
     @DisplayName("ทดสอบการเช็ค ID")
     void testIsId(){
